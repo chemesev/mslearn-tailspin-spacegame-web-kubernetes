@@ -2,7 +2,7 @@ trigger:
 - master
 
 variables:
-  buildConfiguration: 'KubeDemo'
+  buildConfiguration: 'Release'
   webRepository: 'web'
   leaderboardRepository: 'leaderboard'
   tag: '$(Build.BuildId)'
