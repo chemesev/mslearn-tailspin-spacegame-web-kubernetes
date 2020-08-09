@@ -48,7 +48,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: 'ubuntu-18.04'
-    environment: 'cntrKubeCluster.default'
+    environment: 'KubeCluster.default'
     variables:
     - group: Release
     strategy:
